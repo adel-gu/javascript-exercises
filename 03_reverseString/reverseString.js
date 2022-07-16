@@ -1,13 +1,13 @@
 const reverseString = function (string) {
   let letters = string.split("");
-  let reversedLatters = [];
+  let reversedLetters = [];
   let output = "";
 
   for (let i = letters.length - 1; i >= 0; i--) {
-    reversedLatters.push(letters[i]);
+    reversedLetters.push(letters[i]);
   }
 
-  output = reversedLatters.join("");
+  output = reversedLetters.join("");
   return output;
 };
 
